@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: #FFD900;
+    padding: 20px 45px;
+}
+#sec1{
+    display: flex;
+    justify-content: space-between;
+}
+
+#desc{
+    background-color: #514988;
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+}
+#desc h1{
+    color: #F3C61F;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+}
+#desc p{
+    text-align: center;
+    color: #FFF;
+    font-size: 24px;
+    padding-bottom: 50px;
+}
+#aviso{
+    font-size: 20px;
+    color: #E33881;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+#ing1{
+    color: #F3C61F;
+    font-size: 25px;
+    margin: 20px 50px;
+}
+#ing2{
+    margin: 20px 50px;
+}
+img{
+    width: 180px;
+}
+section{
+    display: flex;
+}
+
+button{
+    background-color: #514988;
+    color: #FFF;
+    cursor: pointer;
+    width: 500px;
+    height: 100px;
+    border-radius: 10px;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 110px 50px;
+}
+button:hover{
+    color: #F3C61F;
+}
+
+.card-highlight{
+    box-shadow: 10px 10px 10px 10px grey;
+}
+
+#countdown{
+    display: flex;
+    justify-content: space-between;
+}
+.cd{
+    font-size: 40px;
+    font-weight: bold;
+    color: #514988;
+    margin: 30px 20px 0px 20px;
+}
+
+#video{
+    padding-top: 30px;
+    padding-right: 10px;
+}
